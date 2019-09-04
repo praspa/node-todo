@@ -7,6 +7,6 @@ const TODO_CONN_STR = 'monogodb://' + TODO_DB_USER + ':' + TODO_DB_PWD + '@' + T
 
 
 module.exports = {
-    remoteUrl : TODO_CONN_STR,
+    remoteUrl: TODO_CONN_STR,
     localUrl: TODO_CONN_STR
 };
